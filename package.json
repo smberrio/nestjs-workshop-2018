@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/smberrio/nestjs-workshop-2018/issues"
   },
-  "homepage": "https://github.com/smberrio/nestjs-workshop-2018#readme"
+  "homepage": "https://github.com/smberrio/nestjs-workshop-2018#readme",
+  "devDependencies": {
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.0.3",
+	"lint": "tslint --project tsconfig.json src/**/*.ts"
+  }
 }
